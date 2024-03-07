@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+}
+
+/* 
+  Login Page  
+*/
+.login {
+  background: url(../public/images/login-bg2.jpeg);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.register {
+  background: url(../public/images/bg-3.jpeg);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 15px;
+}
+
+.register h1 {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: -10px;
+}
+
+.login h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.login-body {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.register Form {
+  margin: 0 auto;
+  margin-top: 4%;
+  width: 100%;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.login Form {
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 100%;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.register Form input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.login Form input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .login{
+    padding-top: 0;
+  }
+
+  .register {
+    padding-top: 0;
+  }
+
+  .login-body {
+    height: 100vh;
+    border-radius: 0px;
+  }
+}
+
+/* 
+  Chat Page  
+*/
